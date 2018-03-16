@@ -1,0 +1,23 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - YLMarquee (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - YLMarquee (from `../`)
+
+EXTERNAL SOURCES:
+  YLMarquee:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  YLMarquee: 57a39e3af4ad512915b406f25a43cb536dd093be
+
+PODFILE CHECKSUM: 5e30f1912a8821cbbcf4105396acc23dc78cb5fc
+
+COCOAPODS: 1.4.0

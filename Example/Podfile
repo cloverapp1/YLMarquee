@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YLMarquee_Example' do
+  pod 'YLMarquee', :path => '../'
+
+  target 'YLMarquee_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
