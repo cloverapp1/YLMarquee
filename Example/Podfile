@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'YLMarquee_Example' do
-  pod 'YLMarquee', :path => '../'
+  pod 'YLMarquee'
 
   target 'YLMarquee_Tests' do
     inherit! :search_paths

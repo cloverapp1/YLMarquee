@@ -7,38 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */; };
-		0B177894891B83E55EC4A42F95D00C7B /* YLMarquee-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E3B758F9A40121ED2DCE563F27E529A /* YLMarquee-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
-		1B6C81616BEA925E06F3AE3870E33FBF /* YLMarquee.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA8A850C1D8B45AE62186B7734ACD86 /* YLMarquee.m */; };
-		28D97E602C77A108EBE5504597163D6F /* YLMarquee-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 063680C742BAB173CD6CC7DC8F193B81 /* YLMarquee-dummy.m */; };
-		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
+		051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = B86A644AF7C09DBBF5B381B893810A9B /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8BB2E2A7A5C093A07381F33A958B86 /* UIApplication+StrictKeyWindow.m */; };
+		0B177894891B83E55EC4A42F95D00C7B /* YLMarquee-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9D978B8D56812150AA54D07390ADA7A /* YLMarquee-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AAF291DD1B579682E97B4D199FB34A /* SwiftSupport.swift */; };
+		1B6C81616BEA925E06F3AE3870E33FBF /* YLMarquee.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C14B8307715A3454673B3D7BA3CA34A /* YLMarquee.m */; };
+		28D97E602C77A108EBE5504597163D6F /* YLMarquee-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0DB8FED94C1D593C229E00BE0847F7 /* YLMarquee-dummy.m */; };
+		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4820B837F035A8D66E74B100BB46C123 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA34D34535E7891160B120133069471 /* UIImage+Diff.m */; };
 		411496694544571526EE58F188484F48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
-		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */; };
+		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 00EFFD258213DBD749C276B5F2FA2874 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88749FC5E4D290D3D436AE5666D53AA5 /* FBSnapshotTestCase-dummy.m */; };
 		69C97142C7EE5FB838990D5C72F06F9D /* Pods-YLMarquee_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51172C84527B3000594E481C537C6F3F /* Pods-YLMarquee_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */; };
-		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */; };
+		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 813CB6FEF6516526BEBDE57AA7E256CB /* UIImage+Compare.m */; };
+		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = AB77489538FBF2F0857077018547AE7B /* UIImage+Snapshot.m */; };
 		7E9B14D5F8842A86CA86F2AF45230725 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */; };
 		7FBC23C43BB86539A94D26B9185D8723 /* Pods-YLMarquee_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21792F35C9E93AB063261141A1E5652D /* Pods-YLMarquee_Tests-dummy.m */; };
 		83A2BF93997FE37BC8B93A2BBC8E02BB /* Pods-YLMarquee_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E95AC5DEAD98A040427B8A3987C0CD36 /* Pods-YLMarquee_Example-dummy.m */; };
 		841FF232C33C7D49C58CEFDBE7EEB92B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */; };
 		91D0138ACFAD733E4061F12E450C336C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
-		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */; };
+		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = DE041086FEE5851A9EB2DC3FE79064A6 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7384445562DC41FA707E9702A732008F /* FBSnapshotTestController.m */; };
 		AD3BD1DA41D3C713EE1B392753E5D5D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
 		B27DFD6025D94758785918F1D6F6C060 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A27810809BAD71E4022600B21251449F /* QuartzCore.framework */; };
-		B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */; };
-		BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A12B36F00BD3B11923CFDEF820A31B61 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 0872B8E5CB136A112EAC3DFAE2F12857 /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4420BE427C400A16E942373AE53EFCB1 /* FBSnapshotTestCase.m */; };
+		BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = A17B8A81AC36A4C7F24279E9B8D034B0 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C44ACE598CB3AC7920905E6A7C3C5406 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
-		CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 972BFE842D7281A5DDB291C5369CE66F /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		D2D216AED75CE660E8709742700BE722 /* Pods-YLMarquee_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FF9E14C90EE5AA83DFB75839C47D5A7 /* Pods-YLMarquee_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */; };
-		E8ECC167FCFEC69EAA69C4C010B48612 /* YLMarquee.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD9E498849D6F779EAA92ED8604E24C /* YLMarquee.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFBAD421004FA95626629A45A5FCF6B /* FBSnapshotTestCasePlatform.m */; };
+		E8ECC167FCFEC69EAA69C4C010B48612 /* YLMarquee.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B9CB14E638B269299A1D8F0A5195B4 /* YLMarquee.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,67 +59,64 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00EFFD258213DBD749C276B5F2FA2874 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		02B2D9538E17C2BEF65AF4C9D6A64467 /* Pods-YLMarquee_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLMarquee_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		063680C742BAB173CD6CC7DC8F193B81 /* YLMarquee-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YLMarquee-dummy.m"; sourceTree = "<group>"; };
-		0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		0E3B758F9A40121ED2DCE563F27E529A /* YLMarquee-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YLMarquee-umbrella.h"; sourceTree = "<group>"; };
+		0872B8E5CB136A112EAC3DFAE2F12857 /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		0FF9E14C90EE5AA83DFB75839C47D5A7 /* Pods-YLMarquee_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YLMarquee_Example-umbrella.h"; sourceTree = "<group>"; };
-		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		146F61F62A31E869794F7B6D0B7E2B77 /* YLMarquee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YLMarquee.framework; path = YLMarquee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		18E0598EA3B9742779A398ACEFF58BCB /* YLMarquee.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YLMarquee.xcconfig; sourceTree = "<group>"; };
-		1D15D23E4C2B876F99DF69A105812C57 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		1EE34FBE0A3D4CF6F5DBA334A84F29ED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2027A8D584019C0CD5B4071AD62C2D2E /* Pods_YLMarquee_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YLMarquee_Example.framework; path = "Pods-YLMarquee_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21792F35C9E93AB063261141A1E5652D /* Pods-YLMarquee_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YLMarquee_Tests-dummy.m"; sourceTree = "<group>"; };
 		23959F0BAEAAE6FED758768BA357A826 /* Pods-YLMarquee_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YLMarquee_Example-resources.sh"; sourceTree = "<group>"; };
 		2A746CB88497CDE212796AC610F852D7 /* Pods-YLMarquee_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLMarquee_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		2C6A8B41E2A6197BD060CC38B4CB8A9E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30FD92068A816FBA577872E80CADF733 /* Pods-YLMarquee_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YLMarquee_Tests.modulemap"; sourceTree = "<group>"; };
-		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		39CB3E88AF3A708AE09E75C77696A715 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		3D6A9D5A3288E5A55618AA09DD38556F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43D4B3974DFFD77990DC190EA152CD75 /* Pods-YLMarquee_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YLMarquee_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4420BE427C400A16E942373AE53EFCB1 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		46390AD536A4A73CA9F1AF33A2216049 /* Pods-YLMarquee_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YLMarquee_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		4820B837F035A8D66E74B100BB46C123 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		4AEB24DEB180F6C554CA0DF0283B1CBB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51172C84527B3000594E481C537C6F3F /* Pods-YLMarquee_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YLMarquee_Tests-umbrella.h"; sourceTree = "<group>"; };
 		526CEFE329AC33EC5ECD7BE80ABF736F /* Pods-YLMarquee_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLMarquee_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5342633AF814531377C708E595672414 /* Pods-YLMarquee_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLMarquee_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		5AD9E498849D6F779EAA92ED8604E24C /* YLMarquee.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLMarquee.h; path = YLMarquee/Classes/YLMarquee.h; sourceTree = "<group>"; };
+		5566C32E6701AA6BA7C4A548935C7530 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		58B9CB14E638B269299A1D8F0A5195B4 /* YLMarquee.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLMarquee.h; path = YLMarquee/Classes/YLMarquee.h; sourceTree = "<group>"; };
+		5CC4D9787055E509EDEFA064E020063B /* YLMarquee-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YLMarquee-prefix.pch"; sourceTree = "<group>"; };
 		60E8EB2DB1C7D692055BA71B78974CF6 /* Pods-YLMarquee_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YLMarquee_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		638711427673580A73FD0404DA450317 /* YLMarquee.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = YLMarquee.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		67E276593855381568F725E69496F29C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		754D4329A918CD28B93B0D3C57936F64 /* YLMarquee-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YLMarquee-prefix.pch"; sourceTree = "<group>"; };
-		7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
-		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		7384445562DC41FA707E9702A732008F /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		813CB6FEF6516526BEBDE57AA7E256CB /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		859B99F5B26CA8BC393E9FF0326B2969 /* Pods-YLMarquee_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YLMarquee_Example.modulemap"; sourceTree = "<group>"; };
-		85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		8B5DA26A9DFDC49148D89042512ADC3E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8EA8A850C1D8B45AE62186B7734ACD86 /* YLMarquee.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLMarquee.m; path = YLMarquee/Classes/YLMarquee.m; sourceTree = "<group>"; };
+		88749FC5E4D290D3D436AE5666D53AA5 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		9374AAC5905E25F15BD5B2719AEC075C /* Pods-YLMarquee_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YLMarquee_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		96AAF291DD1B579682E97B4D199FB34A /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		972BFE842D7281A5DDB291C5369CE66F /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		9C14B8307715A3454673B3D7BA3CA34A /* YLMarquee.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLMarquee.m; path = YLMarquee/Classes/YLMarquee.m; sourceTree = "<group>"; };
+		A12B36F00BD3B11923CFDEF820A31B61 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		A17B8A81AC36A4C7F24279E9B8D034B0 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		A27810809BAD71E4022600B21251449F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		A5155B3E8E04DD6CB81570183293A88F /* YLMarquee.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YLMarquee.modulemap; sourceTree = "<group>"; };
 		AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		AB77489538FBF2F0857077018547AE7B /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		B5016EB27450C432585FA13362549565 /* Pods-YLMarquee_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YLMarquee_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		B86A644AF7C09DBBF5B381B893810A9B /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		BB8BB2E2A7A5C093A07381F33A958B86 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		C3DCD404882C23B4542D2279A5BFB2C5 /* YLMarquee.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YLMarquee.xcconfig; sourceTree = "<group>"; };
 		C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CA167F72925A39BC16174C8EDC6FEDD8 /* Pods_YLMarquee_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YLMarquee_Tests.framework; path = "Pods-YLMarquee_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFBAD421004FA95626629A45A5FCF6B /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		D6D4BA725583AF0F93DF0D6268E144D5 /* Pods-YLMarquee_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YLMarquee_Tests-resources.sh"; sourceTree = "<group>"; };
-		D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		D9D978B8D56812150AA54D07390ADA7A /* YLMarquee-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YLMarquee-umbrella.h"; sourceTree = "<group>"; };
+		DE041086FEE5851A9EB2DC3FE79064A6 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		DE0DB8FED94C1D593C229E00BE0847F7 /* YLMarquee-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YLMarquee-dummy.m"; sourceTree = "<group>"; };
 		E95AC5DEAD98A040427B8A3987C0CD36 /* Pods-YLMarquee_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YLMarquee_Example-dummy.m"; sourceTree = "<group>"; };
 		EC6BB0AB61639D0993B84F6956355EC7 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF519A026B10AC73ABBE6E658308B29D /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		F10CBDEE32E5F6BDECFB3D41F7DD0B03 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		F1F5A2DBFC5383C74E64749099FC0E82 /* Pods-YLMarquee_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YLMarquee_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F37EDE55504DC0A6B693EE3E17D63B02 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
+		F68F3401E0764837F0C3529461D3EB45 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		F6EDC302CD65CA91B57A0C652C2DA03F /* YLMarquee.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YLMarquee.modulemap; sourceTree = "<group>"; };
+		FFA34D34535E7891160B120133069471 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +158,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		081DA7AAF0103A426A0627F555602AD7 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				A9604B985EE2345421DD1C9408225275 /* Core */,
+				C5DA9DBAC8D211D566E04BCC47054A15 /* Support Files */,
+				63B6D7B0540C2781838D162D3B284832 /* SwiftSupport */,
+			);
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		0FB059FC47D176787F8D2B6F7621C15C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				081DA7AAF0103A426A0627F555602AD7 /* FBSnapshotTestCase */,
+				2C8F034C159D1647079D83A4A20A5012 /* YLMarquee */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		13C88F7BFEF0C2EFA0516A615F18F7D8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C6A8B41E2A6197BD060CC38B4CB8A9E /* Info.plist */,
+				F6EDC302CD65CA91B57A0C652C2DA03F /* YLMarquee.modulemap */,
+				C3DCD404882C23B4542D2279A5BFB2C5 /* YLMarquee.xcconfig */,
+				DE0DB8FED94C1D593C229E00BE0847F7 /* YLMarquee-dummy.m */,
+				5CC4D9787055E509EDEFA064E020063B /* YLMarquee-prefix.pch */,
+				D9D978B8D56812150AA54D07390ADA7A /* YLMarquee-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YLMarquee";
+			sourceTree = "<group>";
+		};
 		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -169,65 +200,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2287B5EBEAA3C332F8DB9A1E61F5B097 /* FBSnapshotTestCase */ = {
+		2C8F034C159D1647079D83A4A20A5012 /* YLMarquee */ = {
 			isa = PBXGroup;
 			children = (
-				F35791481CAFDD8E7715AE1B44687328 /* Core */,
-				3288FCB8E15F6401DE6220AE5CA1D27B /* Support Files */,
-				99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */,
-			);
-			name = FBSnapshotTestCase;
-			path = FBSnapshotTestCase;
-			sourceTree = "<group>";
-		};
-		256DE4F8332797F1DE04F1CB13198D55 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8B5DA26A9DFDC49148D89042512ADC3E /* Info.plist */,
-				A5155B3E8E04DD6CB81570183293A88F /* YLMarquee.modulemap */,
-				18E0598EA3B9742779A398ACEFF58BCB /* YLMarquee.xcconfig */,
-				063680C742BAB173CD6CC7DC8F193B81 /* YLMarquee-dummy.m */,
-				754D4329A918CD28B93B0D3C57936F64 /* YLMarquee-prefix.pch */,
-				0E3B758F9A40121ED2DCE563F27E529A /* YLMarquee-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/YLMarquee";
-			sourceTree = "<group>";
-		};
-		2D85F60F8FD0ACCEAA119266C99AAA35 /* YLMarquee */ = {
-			isa = PBXGroup;
-			children = (
-				5AD9E498849D6F779EAA92ED8604E24C /* YLMarquee.h */,
-				8EA8A850C1D8B45AE62186B7734ACD86 /* YLMarquee.m */,
-				311CD67FE5CD9B3764304DDBDC022E8D /* Pod */,
-				256DE4F8332797F1DE04F1CB13198D55 /* Support Files */,
+				58B9CB14E638B269299A1D8F0A5195B4 /* YLMarquee.h */,
+				9C14B8307715A3454673B3D7BA3CA34A /* YLMarquee.m */,
+				13C88F7BFEF0C2EFA0516A615F18F7D8 /* Support Files */,
 			);
 			name = YLMarquee;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		311CD67FE5CD9B3764304DDBDC022E8D /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				39CB3E88AF3A708AE09E75C77696A715 /* LICENSE */,
-				1D15D23E4C2B876F99DF69A105812C57 /* README.md */,
-				638711427673580A73FD0404DA450317 /* YLMarquee.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		3288FCB8E15F6401DE6220AE5CA1D27B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F10CBDEE32E5F6BDECFB3D41F7DD0B03 /* FBSnapshotTestCase.modulemap */,
-				7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */,
-				4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */,
-				EF519A026B10AC73ABBE6E658308B29D /* FBSnapshotTestCase-prefix.pch */,
-				A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */,
-				67E276593855381568F725E69496F29C /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/FBSnapshotTestCase";
+			path = YLMarquee;
 			sourceTree = "<group>";
 		};
 		3BEBA667C5A2631440172FC2C81A8FC2 /* Pods-YLMarquee_Tests */ = {
@@ -248,6 +229,14 @@
 			path = "Target Support Files/Pods-YLMarquee_Tests";
 			sourceTree = "<group>";
 		};
+		63B6D7B0540C2781838D162D3B284832 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				96AAF291DD1B579682E97B4D199FB34A /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
 		757336E9288C4AA8DC22A1B96B9C80D0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -263,9 +252,8 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				B79E4D5C7E83F8D5F90293F8D14BF9C8 /* Development Pods */,
 				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
-				FBD2D672921284E66F309CA3462F84D6 /* Pods */,
+				0FB059FC47D176787F8D2B6F7621C15C /* Pods */,
 				757336E9288C4AA8DC22A1B96B9C80D0 /* Products */,
 				837C8647FD167B66DD37C7FDB6C3FC73 /* Targets Support Files */,
 			);
@@ -291,20 +279,39 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */ = {
+		A9604B985EE2345421DD1C9408225275 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */,
+				DE041086FEE5851A9EB2DC3FE79064A6 /* FBSnapshotTestCase.h */,
+				4420BE427C400A16E942373AE53EFCB1 /* FBSnapshotTestCase.m */,
+				A17B8A81AC36A4C7F24279E9B8D034B0 /* FBSnapshotTestCasePlatform.h */,
+				CAFBAD421004FA95626629A45A5FCF6B /* FBSnapshotTestCasePlatform.m */,
+				4820B837F035A8D66E74B100BB46C123 /* FBSnapshotTestController.h */,
+				7384445562DC41FA707E9702A732008F /* FBSnapshotTestController.m */,
+				0872B8E5CB136A112EAC3DFAE2F12857 /* UIApplication+StrictKeyWindow.h */,
+				BB8BB2E2A7A5C093A07381F33A958B86 /* UIApplication+StrictKeyWindow.m */,
+				972BFE842D7281A5DDB291C5369CE66F /* UIImage+Compare.h */,
+				813CB6FEF6516526BEBDE57AA7E256CB /* UIImage+Compare.m */,
+				B86A644AF7C09DBBF5B381B893810A9B /* UIImage+Diff.h */,
+				FFA34D34535E7891160B120133069471 /* UIImage+Diff.m */,
+				00EFFD258213DBD749C276B5F2FA2874 /* UIImage+Snapshot.h */,
+				AB77489538FBF2F0857077018547AE7B /* UIImage+Snapshot.m */,
 			);
-			name = SwiftSupport;
+			name = Core;
 			sourceTree = "<group>";
 		};
-		B79E4D5C7E83F8D5F90293F8D14BF9C8 /* Development Pods */ = {
+		C5DA9DBAC8D211D566E04BCC47054A15 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2D85F60F8FD0ACCEAA119266C99AAA35 /* YLMarquee */,
+				F68F3401E0764837F0C3529461D3EB45 /* FBSnapshotTestCase.modulemap */,
+				F37EDE55504DC0A6B693EE3E17D63B02 /* FBSnapshotTestCase.xcconfig */,
+				88749FC5E4D290D3D436AE5666D53AA5 /* FBSnapshotTestCase-dummy.m */,
+				5566C32E6701AA6BA7C4A548935C7530 /* FBSnapshotTestCase-prefix.pch */,
+				A12B36F00BD3B11923CFDEF820A31B61 /* FBSnapshotTestCase-umbrella.h */,
+				3D6A9D5A3288E5A55618AA09DD38556F /* Info.plist */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
 			sourceTree = "<group>";
 		};
 		EE384B1B6C352C3A517B03CB75DF1080 /* Pods-YLMarquee_Example */ = {
@@ -323,35 +330,6 @@
 			);
 			name = "Pods-YLMarquee_Example";
 			path = "Target Support Files/Pods-YLMarquee_Example";
-			sourceTree = "<group>";
-		};
-		F35791481CAFDD8E7715AE1B44687328 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */,
-				39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */,
-				7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */,
-				58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */,
-				1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */,
-				052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */,
-				B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */,
-				2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */,
-				432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */,
-				3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */,
-				85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */,
-				B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */,
-				0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */,
-				3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		FBD2D672921284E66F309CA3462F84D6 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2287B5EBEAA3C332F8DB9A1E61F5B097 /* FBSnapshotTestCase */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -561,7 +539,7 @@
 /* Begin XCBuildConfiguration section */
 		08CAC95B3C36EE8DBE67F8177AA58FA8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 18E0598EA3B9742779A398ACEFF58BCB /* YLMarquee.xcconfig */;
+			baseConfigurationReference = C3DCD404882C23B4542D2279A5BFB2C5 /* YLMarquee.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -724,7 +702,7 @@
 		};
 		ABB0B2EC6CE39697E6F99566C3316CD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 18E0598EA3B9742779A398ACEFF58BCB /* YLMarquee.xcconfig */;
+			baseConfigurationReference = C3DCD404882C23B4542D2279A5BFB2C5 /* YLMarquee.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -753,7 +731,7 @@
 		};
 		B2E52370F534DFE0FF7634F754F4F618 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */;
+			baseConfigurationReference = F37EDE55504DC0A6B693EE3E17D63B02 /* FBSnapshotTestCase.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -847,7 +825,7 @@
 		};
 		CEA992D818C17C13A97E42D0734BF7D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */;
+			baseConfigurationReference = F37EDE55504DC0A6B693EE3E17D63B02 /* FBSnapshotTestCase.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

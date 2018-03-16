@@ -13,7 +13,6 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* YLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* YLAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* YLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* YLViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -23,6 +22,9 @@
 		611EA65E8C49F37348EE040D /* Pods_YLMarquee_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05E52FA4277F0D9204FFA4E6 /* Pods_YLMarquee_Tests.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		8FCEACC9205BC6A3008DEBE6 /* YLFirstVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCEACC7205BC6A3008DEBE6 /* YLFirstVC.m */; };
+		8FCEACCA205BC6A3008DEBE6 /* YLFirstVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FCEACC8205BC6A3008DEBE6 /* YLFirstVC.xib */; };
+		8FCEACCD205BC6BC008DEBE6 /* YLSecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCEACCC205BC6BC008DEBE6 /* YLSecondVC.m */; };
 		EBC2F349B1E32285CD3E2D6D /* Pods_YLMarquee_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59C19EE4F1CD6A27E2A4CF7E /* Pods_YLMarquee_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,8 +53,6 @@
 		6003F59B195388D20070C39A /* YLMarquee-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YLMarquee-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* YLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* YLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* YLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* YLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* YLMarquee_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLMarquee_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -65,6 +65,11 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		728D468277B3DFF8713AE12F /* Pods-YLMarquee_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLMarquee_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YLMarquee_Tests/Pods-YLMarquee_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8FCEACC6205BC6A3008DEBE6 /* YLFirstVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLFirstVC.h; sourceTree = "<group>"; };
+		8FCEACC7205BC6A3008DEBE6 /* YLFirstVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLFirstVC.m; sourceTree = "<group>"; };
+		8FCEACC8205BC6A3008DEBE6 /* YLFirstVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YLFirstVC.xib; sourceTree = "<group>"; };
+		8FCEACCB205BC6BC008DEBE6 /* YLSecondVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLSecondVC.h; sourceTree = "<group>"; };
+		8FCEACCC205BC6BC008DEBE6 /* YLSecondVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLSecondVC.m; sourceTree = "<group>"; };
 		B058DE6D702375CF77049912 /* Pods-YLMarquee_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLMarquee_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YLMarquee_Example/Pods-YLMarquee_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D7EC2F5547011462F13849B5 /* YLMarquee.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YLMarquee.podspec; path = ../YLMarquee.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -135,8 +140,11 @@
 				6003F59C195388D20070C39A /* YLAppDelegate.h */,
 				6003F59D195388D20070C39A /* YLAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* YLViewController.h */,
-				6003F5A6195388D20070C39A /* YLViewController.m */,
+				8FCEACC6205BC6A3008DEBE6 /* YLFirstVC.h */,
+				8FCEACC7205BC6A3008DEBE6 /* YLFirstVC.m */,
+				8FCEACC8205BC6A3008DEBE6 /* YLFirstVC.xib */,
+				8FCEACCB205BC6BC008DEBE6 /* YLSecondVC.h */,
+				8FCEACCC205BC6BC008DEBE6 /* YLSecondVC.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -279,6 +287,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FCEACCA205BC6A3008DEBE6 /* YLFirstVC.xib in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
@@ -406,8 +415,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FCEACC9205BC6A3008DEBE6 /* YLFirstVC.m in Sources */,
 				6003F59E195388D20070C39A /* YLAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* YLViewController.m in Sources */,
+				8FCEACCD205BC6BC008DEBE6 /* YLSecondVC.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
